@@ -13,7 +13,7 @@ const ArticleList = () => {
   //   console.log(list)
   // }, [list])
 
-  const articles = list.map(article => <Article key={article.uri} />)
+  const articles = list.map(article => <Article key={article.uri} section={article.section} title={article.title} abstract={article.abstract} byline={article.byline} image={article.multimedia[0]} date={article.published_date} />)
   
   return (
     <div>

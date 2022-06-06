@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Article = () => {
+const Article = ({ section, title, abstract, byline, image, date }) => {
   return (
     <div>
 
