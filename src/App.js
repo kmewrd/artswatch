@@ -3,9 +3,10 @@ import ArticleList from './components/ArticleList/ArticleList'
 
 const App = () => {
   return (
-    <div className="App">
+    <main className="App">
+      <h1>ArtsWatch</h1>
       <ArticleList />
-    </div>
+    </main>
   );
 }
 
