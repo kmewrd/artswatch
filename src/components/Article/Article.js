@@ -1,10 +1,14 @@
 import React from 'react'
 
-const Article = ({ section, title, abstract, byline, image, date }) => {
+const Article = ({ section, title, abstract, byline, image }) => {
   return (
-    <div>
-
-    </div>
+    <article>
+      <img src={image} alt='' />
+      <h2>{title}</h2>
+      <h3>{byline}</h3>
+      <p>{abstract}</p>
+      <p>{section}</p>
+    </article>
   )
 }
 
